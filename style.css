@@ -1,0 +1,74 @@
+.title {
+    text-align: center;
+}
+
+hr {
+    margin-top: -1em;
+    margin-bottom: -1em;
+}
+
+
+
+.bottom-border {
+    border-bottom: 1px solid black
+}
+
+ul {
+    list-style-type: circle;
+}
+
+/*  */
+ul>li::marker {
+    font-size: 1.75rem;
+}
+
+body {
+    padding: 50px;
+    margin:0;
+    border: 10px solid orange;
+   
+}
+
+.flex-container {
+    display: flex;
+}
+
+.certification-li {
+    margin: 40px;
+}
+
+.align {
+    margin-right: 40px;
+    min-width: 80px;
+}
+
+.education-details ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    "proprety value image";
+    gap: 10px;
+
+
+}
+
+
+
+.item1 {
+    grid-area:proprety;
+}
+
+.item2 {
+    grid-area: value;
+}
+
+.item3 {
+    grid-area: image;
+}
+.bold{
+    font-weight: bold;
+}
